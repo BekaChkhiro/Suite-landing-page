@@ -1,0 +1,135 @@
+@media screen and (min-width: 768px) {
+    /* header */
+
+    .header-div {
+        padding: 40px 40px 0px 39px;
+        width: 689px;
+    }
+
+    /* main */
+
+    /* super solution div */
+    
+    .super-solution-div {
+        padding: 80px 40px 273px 39px;
+        gap: 88px;
+    }
+
+    /* super solution */
+
+    .super-solution {
+        flex-direction: row;
+        align-items: center;
+        width: 689px
+        gap: 0px;
+    }
+
+    /* super solution content */
+
+    .super-solution-content {
+        width: 573px;
+        height: 399.92px;
+        margin-right: -220px;
+        position: relative;
+    }
+
+    .super-solution-content img {
+        width: 231.19px;
+        height: 29px;
+        margin: 0px 0px 16.32px 232px;
+    }
+
+    .super-solution-content h1 {
+        width: 573px;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -0.78px;
+        margin-bottom: 40px;
+    }
+
+    .super-solution-content p {
+        width: 350px;
+        margin-bottom: 40px;
+    }
+
+    
+
+    /* super splution image */
+
+    .super-solution-image-mobile {
+        display: none;
+    }
+
+    .super-solution-image-tablet {
+        width: 281px;
+        height: 482px;
+    }
+
+    /* companies */
+
+    .companies {
+        width: 689px;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .companies span {
+        width: 223px;
+    }
+
+    .companies p {
+        width: 223px;
+    }
+
+    /* works */
+
+    .works {
+        width: 573px;
+        padding: 0px 58px 64px 58px;
+        margin: 0px auto -464px;
+    }
+
+    /* works content */
+
+    .works-content {
+        width: 573px;
+    }
+
+    .works-content h2 {
+        width: 573px;
+    }
+
+    .works-content p {
+        width: 573px;
+    }
+
+    /* footer */
+
+    .footer-div {
+        padding: 535px 40px 72px 39px;
+        width: 689px;
+        flex-direction: row;g
+        align-items: center;
+        gap: 0px;
+    }
+
+    .footer-div img {
+        margin-right: 202px;
+    }
+
+    .footer-div p {
+        margin-right: 165px;
+        width: 125px;
+    }
+
+    .social-icons {
+        gap: 28px;
+        width: ;
+    }
+
+    .social-icons img {
+        width: 20px;
+        width: 20px;
+        margin: 0px;
+    }
+}
