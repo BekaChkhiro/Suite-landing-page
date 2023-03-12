@@ -166,11 +166,26 @@ body {
     width: 252px;
     height: 402px;
     margin-top: -181px;
+    /* opacity: 0.48; */
+    position: relative;
 }
 
 .works-image img {
     width: 252px;
     height: 402px;
+    position: relative;
+}
+
+.works-image-div {
+    width: 197px;
+    height: 197px;
+    background: #DB65E2;
+    mix-blend-mode: normal;
+    opacity: 0.48;
+    filter: blur(67.957px);
+    position: absolute;
+    top: 170px;
+    right: 20px;
 }
 
 /* works rkali */
@@ -296,7 +311,7 @@ footer {
 }
 
 @media screen and (max-width: 1439px) {
-    .super-solution-image-desktop {
-        display: no;
+    .super-solution-image-desktop, .jeremy-image {
+        display: none;
     }
 }

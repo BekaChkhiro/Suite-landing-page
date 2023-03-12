@@ -1,135 +1,180 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
+    
     /* header */
 
     .header-div {
-        padding: 40px 40px 0px 39px;
-        width: 689px;
+        padding: 50px 165px 0px 165px;
+        width: 1110px;
     }
 
-    /* main */
+    .header-button:hover {
+        background-color: rgba(23, 35, 57, 1);
+        color: rgba(250, 248, 246, 1);
+        cursor: pointer;
+    }
 
     /* super solution div */
-    
+
     .super-solution-div {
-        padding: 80px 40px 273px 39px;
-        gap: 88px;
+        padding: 67px 164px 199px 166px;
+        flex-direction: row;
+        justify-content: center;
+        gap: 96px;
     }
 
     /* super solution */
 
     .super-solution {
-        flex-direction: row;
-        align-items: center;
-        width: 689px
-        gap: 0px;
+        width: 825px;
+    }
+
+    /* super solution content */
+
+    .super-solution-image-desktop {
+        width: 350px;
+        height: 600px;
+    }
+
+    .super-solution-image-tablet {
+        display: none;
     }
 
     /* super solution content */
 
     .super-solution-content {
-        width: 573px;
-        height: 399.92px;
-        margin-right: -220px;
-        position: relative;
+        width: 635px;
+        margin-right: -162px;
     }
 
     .super-solution-content img {
-        width: 231.19px;
-        height: 29px;
-        margin: 0px 0px 16.32px 232px;
+        width: 287px;
+        height: 36px;
+        margin: 0px 0px 21.32px 290px;
     }
 
     .super-solution-content h1 {
-        width: 573px;
-        font-size: 56px;
-        line-height: 64px;
-        letter-spacing: -0.78px;
-        margin-bottom: 40px;
+        width: 635px;
+        font-size: 72px;
+        line-height: 78px;
+        letter-spacing: -1px;
     }
 
     .super-solution-content p {
-        width: 350px;
-        margin-bottom: 40px;
+        margin-bottom: 52px;
     }
 
-    
-
-    /* super splution image */
-
-    .super-solution-image-mobile {
-        display: none;
-    }
-
-    .super-solution-image-tablet {
-        width: 281px;
-        height: 482px;
+    .super-solution-content button:hover {
+        background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+        cursor: pointer;
     }
 
     /* companies */
 
     .companies {
-        width: 689px;
-        flex-direction: row;
-        gap: 10px;
+        flex-direction: column;
+        align-items: start;
+        width: 190px;
     }
 
     .companies span {
-        width: 223px;
+        width: 190px;
+        text-align: start;
     }
 
     .companies p {
-        width: 223px;
+        width: 190px;
+        text-align: start;
     }
+
 
     /* works */
 
-    .works {
-        width: 573px;
-        padding: 0px 58px 64px 58px;
-        margin: 0px auto -464px;
+    .works-div {
+        padding: 0px 164px 0px 167px;
     }
 
-    /* works content */
+    .works {
+        width: 872px;
+        padding: 0px 125px 0px 112px;
+        flex-direction: row;
+        gap: 30.2px;
+        height: 545px;
+        margin: 0px auto -265px;
+    }
+
+    .works-image {
+        width: 375px;
+        height: 600px;
+        margin: 0px;
+        margin-top: -55px;
+    }
+
+    .works-image img {
+        width: 375px;
+        height: 600px;
+    }
+
+    .works-image-div {
+        width: 300px;
+        height: 300px;
+        top: 250px;
+        right: 30px;
+    }
+
+    .jeremy-image {
+        display: none;
+    }
+
+    .rkali {
+        margin-top: -190px;
+    }
 
     .works-content {
-        width: 573px;
+        justify-content: center;
+        align-items: start;
     }
 
     .works-content h2 {
-        width: 573px;
+        width: 299px;
+        text-align: start;
     }
 
     .works-content p {
-        width: 573px;
+        width: 350px;
+        text-align: start;
+    }
+
+    .jeremy {
+        align-items: start;
+    }
+
+    .jeremy h3 {
+        width: 165px;
+        text-align: start;
+        font-size: 17px;
+    }
+
+    .jeremy span {
+        width: 165px;
+        text-align: start;
     }
 
     /* footer */
 
     .footer-div {
-        padding: 535px 40px 72px 39px;
-        width: 689px;
-        flex-direction: row;g
-        align-items: center;
-        gap: 0px;
+        padding: 360px 164px 72px 167px;
+        width: 1110px;
     }
 
     .footer-div img {
-        margin-right: 202px;
+        margin-right: 410px;
     }
 
     .footer-div p {
-        margin-right: 165px;
-        width: 125px;
-    }
-
-    .social-icons {
-        gap: 28px;
-        width: ;
+        margin-right: 377px;
     }
 
     .social-icons img {
-        width: 20px;
-        width: 20px;
         margin: 0px;
     }
 }
